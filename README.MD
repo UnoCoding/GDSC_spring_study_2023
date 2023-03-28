@@ -25,5 +25,13 @@
   이 강의에서는 JUnit 사용
   </p>
   <h1>2.2 Hello Controller 테스트 코드 작성하기</h1>
+ <br>
+ <p>
+  프로젝트 -> src -> main -> java 디렉토리에 패키지를 추가하고, 패키지안에 "Application"의 이름을 가진 클래스를 생성 후 클래스 안에 예제 코드를 작성했습니다.
   <img width="1440" alt="Screen Shot 2023-03-28 at 2 22 41 PM" src="https://user-images.githubusercontent.com/87971454/228136168-01e3aba6-42ef-4fb8-963f-2e29679c498e.png">
-
+  코드의 내용은 다음과 같습니다.
+  <ul>
+   <li> <strong>@SpringBootApplication</strong> : 스프링 부트의 자동 설정, 스프링 Bean 읽기와 생성을 모두 자동으로 설정되게 도와주는 키워드, 항상 프로젝트의 최상단에 위치.
+       <li> <strong>SpringApplcation.run()</strong> : 내장 WAS(Web Application Server)를 실행하는 함수, 서버에 Tomcat를 설치할 필요가 없고, 스프링 부트로 만들어진 Jar파일을 실행하면 된다.
+  </ul>
+ </p>

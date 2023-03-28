@@ -25,5 +25,5 @@
   이 강의에서는 JUnit 사용
   </p>
   <h1>2.2 Hello Controller 테스트 코드 작성하기</h1>
-  
-  
+  <img width="1440" alt="Screen Shot 2023-03-28 at 2 22 41 PM" src="https://user-images.githubusercontent.com/87971454/228136168-01e3aba6-42ef-4fb8-963f-2e29679c498e.png">
+

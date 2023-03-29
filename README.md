@@ -63,4 +63,22 @@
  </p>
   <h1>롬복 소개 및 설치하기</h1>
   <p> 롬복(Lombok)이란 자바 개발자들의 필수 라이브러리이자, Getter, Setter, 기본생성자,toString 등을 어노테이션으로 자동 생성해줍니다. "build.gradle" 파일에서 다음의 코드를 추가합니다.
-  <pre>complie('org.projectlombok:lombok')</pre>
+  <pre>dependenccies{
+  complie('org.projectlombok:lombok')
+  }</pre>
+ + Gradle 5.x 버전 이하에서는 책과 동일, <br> Gradle 5.x 버전 이상에서는 다음과 같이 설정해야한다.<pre>dependencies {
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+    }</pre>
+  그 후 "HelloResponseDto" 파일을 생성.
+    <img width="1440" alt="Screen Shot 2023-03-29 at 4 54 00 PM" src="https://user-images.githubusercontent.com/87971454/228465015-6a7265e0-c6a3-4998-8098-58ee568d395d.png">
+ 코드의 내용은 다음과 같다.
+<ul>
+   <li> <bold>@Getter</bold> - 선언된 모든 필드의 변수들에 대한 get메소드를 생성해준다.
+   <li> <bold>@RequiredArgsController</bold> - final로 선언된 모든 필드가 포함된 생성자를 생성해준다.
+  </ul>
+  <img width="1440" alt="Screen Shot 2023-03-29 at 4 53 28 PM" src="https://user-images.githubusercontent.com/87971454/228465835-ba824ae3-f95e-4d40-aecb-3c289bed4890.png"> 그 후 테스트 진행.
+
+
+    
+

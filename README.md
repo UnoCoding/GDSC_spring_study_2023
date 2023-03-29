@@ -78,6 +78,7 @@
    <li> <bold>@RequiredArgsController</bold> - final로 선언된 모든 필드가 포함된 생성자를 생성해준다.
   </ul>
   <img width="1440" alt="Screen Shot 2023-03-29 at 4 53 28 PM" src="https://user-images.githubusercontent.com/87971454/228465835-ba824ae3-f95e-4d40-aecb-3c289bed4890.png"> 그 후 테스트 진행.
+  테스트 진행시 "jsonPath" 메소드에서 에러가 발생한다면 "import static org.asserj.core.internal.bytebuddy.mather.ElementMatcher.is"를 "import static org.hamcrest.Matcher.is;" 로 변경
 
 
     
